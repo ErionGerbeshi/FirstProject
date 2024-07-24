@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Homepage from './Homepage.js';
+import About from './About.js';
+import Contact from './Contact.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  <Homepage text={"I will learn React JS"}></Homepage>
+  <About text={"Une jam nga Fushe Kosova"}></About>
+  <Contact kontakti={"mund te me kontaktoni mua"} numri={"045-998-218"} email={"via this email:gerbeshierion19@gmail.com"}></Contact>
+  </>
   );
 }
 
